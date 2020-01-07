@@ -1,0 +1,26 @@
+-Lista de materiales
+
+1 Placa
+    1       Perfil solera ( 70mm x 2,60m )    
+    2       Perfil montante ( 69mm x 2,60m )    
+    10      Tornillo T1     ( 8 x 9/16 - 14mm ) 
+    30      Tornillo T2     ( 6 x 1″ - 25mm )   
+    4(ml)   Cinta microperforada de papel        
+    2(kg)   Masilla                           
+    2(m2)   Lana de vidrio
+    4(und)  Tarugo Nylon ( N°8 c/tope - 40mm + Tornillo)                       
+
+https://www.gaesa.com.ar/noticias/
+https://isolana.es/aplicaciones/sisis/versistema_trasdosado.php?M=trasdosado&id=1
+
+Mario:
+Entidad placa ( que tiene sus propiedades )
+Entidad que es placa mas materiales asociados (material + cantidad)
+Entidad presupuesto que tiene una lista de esos materiales
+(los que elije el usuario y los que vienen precargados al material
+ seleccionado)
+Entidad con los metros cuadrados que quiere cubrir el usuario
+
+Una vez que ya tenes todos los materiales cargados en el objeto presupuesto
+le pedimos el presupuesto final, en esta funcion se recorre todo lo que
+tiene adentro para calcular.
